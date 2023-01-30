@@ -29,10 +29,12 @@ docker build -t <your-app-name> .
 Notice the dot at the end of the command stands for the same directory
 
 Docker command used to run the application and expose port:
+```
 docker run -d -p  7111:3111 <your-app-name>
-  
-Docker commands used to get the application logs
+```
+Docker commands used to get the application logs:
+```
 docker logs <your-container-id>
-
+```
 
 
