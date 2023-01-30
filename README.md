@@ -43,6 +43,40 @@ docker logs <your-container-id>
 
 Here we use the CI (Continuous Integration) to automate application packaging. The application Docker image is created, tagged, and uploaded to DockerHub using GitHub Actions. Finally, a working GitHub Action that creates a fresh image for each new commit to the main branch will be available.
 
+Create a GitHub Action to package and push the updated application image to DockerHub.
+
+```
+name: Build and push to Docker Hub
+on:
+  release:
+    types: [ created ]
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Log in to registryx
+        uses: docker/login-action@v2
+        with: 
+          username: ${{ secrets.DOCKER_HUB_USERNAME }}
+          password: ${{ secrets.DOCKER_HUB_PASS }}
+      - name: Set up Docker Buildx
+        id: buildx
+        uses: docker/setup-buildx-action@v1
+      - name: Build and push the image
+        id: docker_build
+        uses: docker/build-push-action@v2
+        with:
+          context: ./project
+          file: ./project/Dockerfile
+          push: true
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/techtrends:latest
+      - name: Image digest
+        run: echo ${{ steps.docker_build.outputs.digest }}
+```
+
+
 3) **Task 3 - Kubernetes Declarative Manifests**
 
 The application will be deployed along with a Kubernetes cluster using Minikube in this stage. Declarative Kubernetes manifests will be made, and the application will be released to the sandbox environment. You ought to have a set of YAML manifests that will control how the TechTrends application is handled by the cluster by the end of this stage.
