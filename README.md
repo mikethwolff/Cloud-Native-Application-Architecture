@@ -22,6 +22,8 @@ This project covers the following steps:
 
 1) **Task 1 - Create a Dockerfile, Build & test the Docker image**
 
+This step focuses on packaging the application using Docker. We will need to write a Dockerfile and build a Docker image. By the end of this step, we should have the application running locally inside a Docker container.
+
 This can be achieve by using the following commands:
 ```
 docker build -t <your-app-name> .
@@ -36,5 +38,11 @@ Docker commands used to get the application logs:
 ```
 docker logs <your-container-id>
 ```
+
+2) **Task 2 - Continuous Integration with GitHub Actions**
+
+In this task we us Continuous Integration (CI) fundamentals to automate the packaging of the application. We use GitHub Actions to build, tag, and push the TechTrends Docker image to DockerHub. Finally we will have a functional GitHub Action that will construct a new image with every new commit to the main branch.
+
+
 
 
