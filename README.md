@@ -82,6 +82,14 @@ jobs:
 
 The application will be deployed along with a Kubernetes cluster using Minikube in this stage. Declarative Kubernetes manifests will be made, and the application will be released to the sandbox environment. You ought to have a set of YAML manifests that will control how the TechTrends application is handled by the cluster by the end of this stage.
 
+The following Kubernetes manifests can be found:
+```
+project/kubernetes/deploy.yaml
+
+project/kubernetes/namespace.yaml
+
+project/kubernetes/service.yaml
+```
 Kubernetes:
 ![alt text](https://github.com/mikethwolff/Cloud-Native-Application-Architecture/blob/main/project/screenshots/kubernetes-declarative-manifests.png)
 
