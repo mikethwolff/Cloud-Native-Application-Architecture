@@ -41,7 +41,9 @@ docker logs <your-container-id>
 
 2) **Task 2 - Continuous Integration with GitHub Actions**
 
-In this task we us Continuous Integration (CI) fundamentals to automate the packaging of the application. We use GitHub Actions to build, tag, and push the TechTrends Docker image to DockerHub. Finally we will have a functional GitHub Action that will construct a new image with every new commit to the main branch.
+Here we use the CI (Continuous Integration) to automate application packaging. The application Docker image is created, tagged, and uploaded to DockerHub using GitHub Actions. Finally, a working GitHub Action that creates a fresh image for each new commit to the main branch will be available.
+
+
 
 
 
