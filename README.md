@@ -18,7 +18,7 @@ This project covers the following steps:
 
 ![alt text](https://github.com/mikethwolff/Cloud-Native-Application-Architecture/blob/main/project/screenshots/argocd-techtrends-prod.png)
 
-How do we get there:
+# How do we get there:
 
 1) **Task 1 - Create a Dockerfile, Build & test the Docker image**
 
