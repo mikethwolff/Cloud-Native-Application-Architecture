@@ -23,7 +23,7 @@ Argo CD:
 
 # How do we get there:
 
-1) **Task 1 - Create a Dockerfile, Build & test the Docker image**
+1) **Task 1 - Create a Dockerfile, build & test the Docker image**
 
 This step focuses on packaging the application using Docker. We will need to write a Dockerfile and build a Docker image. By the end of this step, we should have the application running locally inside a Docker container.
 
