@@ -20,4 +20,4 @@ This project covers the following steps:
 
 How do we get there:
 
-1) Create a Dockerfile, Build & test the Docker image.
+1) **Task 1 - Create a Dockerfile, Build & test the Docker image**
