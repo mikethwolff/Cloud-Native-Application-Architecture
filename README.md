@@ -21,3 +21,11 @@ This project covers the following steps:
 How do we get there:
 
 1) **Task 1 - Create a Dockerfile, Build & test the Docker image**
+This can be achieve by using the following commands:
+docker build -t <your-app-name> .
+Notice the dot at the end of the command stands for the same directory
+Docker command used to run the application and expose port:
+docker run -d -p  7111:3111 <your-app-name>
+##Docker commands used to get the application logs
+docker logs <your-container-id>
+
