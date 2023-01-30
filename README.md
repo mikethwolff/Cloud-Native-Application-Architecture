@@ -14,7 +14,7 @@ This project covers the following steps:
 - Helm Charts
 - Continuous Delivery with ArgoCD
 
-# Wished outcome:
+# Wished outcome: Synchronized applications in ArgoCD
 
 ![alt text](https://github.com/mikethwolff/Cloud-Native-Application-Architecture/blob/main/project/screenshots/argocd-techtrends-prod.png)
 
