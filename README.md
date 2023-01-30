@@ -43,6 +43,25 @@ docker logs <your-container-id>
 
 Here we use the CI (Continuous Integration) to automate application packaging. The application Docker image is created, tagged, and uploaded to DockerHub using GitHub Actions. Finally, a working GitHub Action that creates a fresh image for each new commit to the main branch will be available.
 
+3) **Task 3 - Kubernetes Declarative Manifests**
+
+Kubernetes:
+![alt text](https://github.com/mikethwolff/Cloud-Native-Application-Architecture/blob/main/project/screenshots/kubernetes-declarative-manifests.png)
+
+4) **Task 4 - Helm Charts**
+
+Throughout this stage, you will parameterize the application manifests using a template configuration manager like Helm. The program will be released to several settings using a Helm Chart template that we will create. We ought to have a set of parametrized YAML manifests that leverage an input values file to produce legitimate Kubernetes objects as a consequence.
+
+5) **Task 5 - Continuous Delivery with ArgoCD**
+
+Argo CD:
+![alt text](https://github.com/mikethwolff/Cloud-Native-Application-Architecture/blob/main/project/screenshots/argocd-ui.png)
+
+Staging:
+![alt text](https://github.com/mikethwolff/Cloud-Native-Application-Architecture/blob/main/project/screenshots/argocd-techtrends-staging.png)
+
+Production:
+![alt text](https://github.com/mikethwolff/Cloud-Native-Application-Architecture/blob/main/project/screenshots/argocd-techtrends-prod.png)
 
 
 
