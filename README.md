@@ -45,6 +45,7 @@ Here we use the CI (Continuous Integration) to automate application packaging. T
 
 Create a GitHub Action to package and push the updated application image to DockerHub.
 
+dockerhub.yml
 ```
 name: Build and push to Docker Hub
 on:
