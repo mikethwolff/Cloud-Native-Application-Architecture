@@ -90,9 +90,13 @@ Kubernetes:
 Throughout this stage, you will parameterize the application manifests using a template configuration manager like Helm. The program will be released to several settings using a Helm Chart template that we will create. We ought to have a set of parametrized YAML manifests that leverage an input values file to produce legitimate Kubernetes objects as a consequence.
 
 The following manifests can be found:
+```
 project/helm/values.yaml
+
 project/helm/values-staging.yaml
+
 project/helm/values-prod.yaml
+```
 
 5) **Task 5 - Continuous Delivery with ArgoCD**
 
