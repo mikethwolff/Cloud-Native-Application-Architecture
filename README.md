@@ -2,7 +2,7 @@
 
 *The listed projects were part of, or based on the Cloud Native Application Architecture Udacity nanodegree program and are displayed in derivated or amended form due to possible copyright restrictions.*
 
-*Form and requirements of my projects may differ from present projects. Udacity may vary projects and this repo is representing my findings at this point in time and may not be representative for future Cloud Native Application Architecture projects. If you are currently enrolled into Udacity's AWS Cloud Architect Nanodegree please keep in mind that my findings can help you as a guide but copying these findings will go against Udacity's Honor Code.*
+*Form and requirements of my projects may differ from present projects. Udacity may vary projects and this repo is representing my findings at this point in time and may not be representative for future Cloud Native Application Architecture projects. If you are currently enrolled into Udacity's Cloud Native Application Architecture Nanodegree please keep in mind that my findings may help you as a guide but copying these findings will go against Udacity's Honor Code.*
 
 # Project 1: Automated CI/CD pipeline with Kubernetes, Docker, Argo CD, Python
 
