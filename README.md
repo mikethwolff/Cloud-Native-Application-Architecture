@@ -25,6 +25,7 @@ How do we get there:
 This can be achieve by using the following commands:
 ```
 docker build -t <your-app-name> .
+```
 Notice the dot at the end of the command stands for the same directory
 
 Docker command used to run the application and expose port:
