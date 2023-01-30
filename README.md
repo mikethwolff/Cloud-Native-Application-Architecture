@@ -16,6 +16,9 @@ This project covers the following steps:
 
 # Wished outcome: Synchronized applications in ArgoCD
 
+Argo CD:
+![alt text](https://github.com/mikethwolff/Cloud-Native-Application-Architecture/blob/main/project/screenshots/argocd-ui.png)
+
 ![alt text](https://github.com/mikethwolff/Cloud-Native-Application-Architecture/blob/main/project/screenshots/argocd-techtrends-prod.png)
 
 # How do we get there:
@@ -109,9 +112,6 @@ project/helm/values-prod.yaml
 5) **Task 5 - Continuous Delivery with ArgoCD**
 
 The deployment of the desired application states in the designated target settings is automated by Argo CD. Application deployments can keep track of changes made to branches, tags, or manifests pinned to a certain commit version.
-
-Argo CD:
-![alt text](https://github.com/mikethwolff/Cloud-Native-Application-Architecture/blob/main/project/screenshots/argocd-ui.png)
 
 Staging:
 ![alt text](https://github.com/mikethwolff/Cloud-Native-Application-Architecture/blob/main/project/screenshots/argocd-techtrends-staging.png)
