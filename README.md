@@ -45,6 +45,8 @@ Here we use the CI (Continuous Integration) to automate application packaging. T
 
 3) **Task 3 - Kubernetes Declarative Manifests**
 
+The application will be deployed along with a Kubernetes cluster using Minikube in this stage. Declarative Kubernetes manifests will be made, and the application will be released to the sandbox environment. You ought to have a set of YAML manifests that will control how the TechTrends application is handled by the cluster by the end of this stage.
+
 Kubernetes:
 ![alt text](https://github.com/mikethwolff/Cloud-Native-Application-Architecture/blob/main/project/screenshots/kubernetes-declarative-manifests.png)
 
