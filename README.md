@@ -72,7 +72,7 @@ jobs:
           context: ./project
           file: ./project/Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/techtrends:latest
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/<your-application>:latest
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
 ```
