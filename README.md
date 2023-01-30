@@ -1,4 +1,4 @@
-# Cloud-Native-Application-Architecture
+# Cloud-Native Application Architecture
 
 *The listed projects were part of, or based on the Cloud Native Application Architecture Udacity nanodegree program and are displayed in derivated or amended form due to possible copyright restrictions.*
 
