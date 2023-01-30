@@ -54,6 +54,8 @@ Throughout this stage, you will parameterize the application manifests using a t
 
 5) **Task 5 - Continuous Delivery with ArgoCD**
 
+The deployment of the desired application states in the designated target settings is automated by Argo CD. Application deployments can keep track of changes made to branches, tags, or manifests pinned to a certain commit version.
+
 Argo CD:
 ![alt text](https://github.com/mikethwolff/Cloud-Native-Application-Architecture/blob/main/project/screenshots/argocd-ui.png)
 
