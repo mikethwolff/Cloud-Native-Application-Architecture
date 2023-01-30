@@ -23,7 +23,7 @@ How do we get there:
 1) **Task 1 - Create a Dockerfile, Build & test the Docker image**
 
 This can be achieve by using the following commands:
-
+```
 docker build -t <your-app-name> .
 Notice the dot at the end of the command stands for the same directory
 
